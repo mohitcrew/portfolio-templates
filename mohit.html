@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alina Smith - Web Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: transparent;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo .dot {
+    color: #ffa500;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    color: #ffa500;
+}
+
+.icons i {
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ffa500;
+}
+
+.hero-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #d1d1d1;
+}
+
+.description {
+    margin: 20px 0;
+    line-height: 1.6;
+    color: #b3b3b3;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: #111111;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #ffa500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Hero Image */
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    width: 300px;
+    height: 300px;
+    background-color: #ffa500;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">Alina<span class="dot">.</span></h1>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p>Hello Please Follow Me</p>
+            <h2>I'm <span class="highlight">Alina Smith</span></h2>
+            <h3>Professional Web Designer</h3>
+            <p class="description">I used HTML and CSS to create and design the website. If you follow the step-by-step video, you will be able to make a beautiful website using HTML & CSS.</p>
+            <a href="#subscribe" class="btn">Subscribe</a>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-container">
+                <img src="path/to/your-image.jpg" alt="Alina Smith">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
